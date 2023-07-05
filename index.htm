@@ -1,0 +1,692 @@
+﻿<html lang="zxx"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="Binance Smart Chain, Smart Contract, nft, Blockchain">
+    <meta name="description" content="TurtleTry allow user to create NFT Token">
+    <title>TurtleTry - Make easy to buy, sell and create NFTs</title>
+    <link rel="shortcut icon" href="images\SVG\face-icon.svg">
+    <!--font-awesome icons link-->
+    <link rel="stylesheet" href="css\font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="css\slick.css">
+    <!--main style file-->
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\responsive.css">
+<style type="text/css">@font-face{
+    font-family: 'bnazanin';
+    src:'./../../fonts/bnazanin.ttf';
+}
+
+.dideo-tooltip {
+    position: relative;
+    display: inline-block;
+    font-family: 'bnazanin';
+    font-size: 0;
+    padding: 3px 5px;
+}
+
+.dideo-tooltip .tooltiptext {
+    visibility: hidden;
+    font-family: 'bnazanin';
+    width: 120px;
+    font-size: 13px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 110%;
+}
+.dideo-img{
+    width: 18px;
+    height: 18px;
+    margin-bottom: -3px;
+    filter: drop-shadow(0px 0px 2px #adadad);
+    webkit:filter: drop-shadow(0px 0px 2px #adadad);
+}
+.dideo-tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.dideo-tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.srg{
+    min-width: 750px;
+}</style><style type="text/css">@font-face{
+    font-family: 'bnazanin';
+    src:'./../../fonts/bnazanin.ttf';
+}
+
+.dideo-tooltip {
+    position: relative;
+    display: inline-block;
+    font-family: 'bnazanin';
+    font-size: 0;
+    padding: 3px 5px;
+}
+
+.dideo-tooltip .tooltiptext {
+    visibility: hidden;
+    font-family: 'bnazanin';
+    width: 120px;
+    font-size: 13px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 110%;
+}
+.dideo-img{
+    width: 18px;
+    height: 18px;
+    margin-bottom: -3px;
+    filter: drop-shadow(0px 0px 2px #adadad);
+    webkit:filter: drop-shadow(0px 0px 2px #adadad);
+}
+.dideo-tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.dideo-tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.srg{
+    min-width: 750px;
+}</style><style type="text/css">@font-face{
+    font-family: 'bnazanin';
+    src:'./../../fonts/bnazanin.ttf';
+}
+
+.dideo-tooltip {
+    position: relative;
+    display: inline-block;
+    font-family: 'bnazanin';
+    font-size: 0;
+    padding: 3px 5px;
+}
+
+.dideo-tooltip .tooltiptext {
+    visibility: hidden;
+    font-family: 'bnazanin';
+    width: 120px;
+    font-size: 13px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 110%;
+}
+.dideo-img{
+    width: 18px;
+    height: 18px;
+    margin-bottom: -3px;
+    filter: drop-shadow(0px 0px 2px #adadad);
+    webkit:filter: drop-shadow(0px 0px 2px #adadad);
+}
+.dideo-tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.dideo-tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.srg{
+    min-width: 750px;
+}</style><style type="text/css">@font-face{
+    font-family: 'bnazanin';
+    src:'./../../fonts/bnazanin.ttf';
+}
+
+.dideo-tooltip {
+    position: relative;
+    display: inline-block;
+    font-family: 'bnazanin';
+    font-size: 0;
+    padding: 3px 5px;
+}
+
+.dideo-tooltip .tooltiptext {
+    visibility: hidden;
+    font-family: 'bnazanin';
+    width: 120px;
+    font-size: 13px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 110%;
+}
+.dideo-img{
+    width: 18px;
+    height: 18px;
+    margin-bottom: -3px;
+    filter: drop-shadow(0px 0px 2px #adadad);
+    webkit:filter: drop-shadow(0px 0px 2px #adadad);
+}
+.dideo-tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+.dideo-tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.srg{
+    min-width: 750px;
+}</style></head>
+
+<body id="dark-mode" data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0">
+    <!-- Preloader Part Start -->
+    <div class="preloader" style="display: none;">
+        <div class="frame">
+            <div class="center">
+                <div class="dot-1"></div>
+                <div class="dot-2"></div>
+                <div class="dot-3"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Part End -->
+    <!-- HEADER AREA START -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top nav-bg">
+        <div class="container">
+            <img style="width: 200px;" src="images\SVG\logo-4.svg" alt="">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse menu-main" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto menu-item">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/main/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/main/#about">About Us</a>
+                    </li>
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#price">PreSale</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a id="wallet" class="nav-link bor" href="">0x3cca*****56</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Contact Us</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="input-group contact-input mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text faq-icon"><i class="fa fa-user-o" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                    <input type="text" class="form-control box-bg" placeholder="Username" aria-label="Username">
+                                </div>
+                                <div class="input-group contact-input mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text faq-icon"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                        </span>
+                                    </div>
+                                    <input type="email" class="form-control box-bg" placeholder="Email Address" aria-label="Username">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control box-bg" placeholder="Ask a Question..." rows="3"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="dropboxx" data-dismiss="modal">Close</button>
+                            <button type="submit" class="dropboxx2" data-dismiss="modal">Send message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Subscription</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="input-group contact-input mb-3">
+                                    <input type="email" class="form-control box-bg" placeholder="Email Address" aria-label="Username">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer mf-2">
+                            <button type="submit" class="dropboxx2" data-dismiss="modal">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- HEADER AREA ENDS -->
+
+    <!-- BANNER AREA START -->
+    <section id="banner">
+        
+        
+        
+        
+    </section>
+    <!-- BANNER AREA ENDS -->
+
+    <!-- FEATURE AREA START -->
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+    <section id="price">
+        <div class="container">
+            <div class="row header-text text-center">
+                <div class="col-lg-12">
+                    <h3 style="margin-bottom: 40px;">TOKEN <span>S</span>ALE</h3>
+                </div>
+            </div>
+
+            <!-- <div class="col-lg-3 col-sm-6">
+                    <div class="price-table mob-mar-bottom">
+                        <h3>Personal</h3>
+                        <h4><sub>$</sub>25<sub>/mon</sub></h4>
+                        <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> Limited Time</p>
+                        <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> HD quality Video</p>
+                        <p><i class="fa fa-check-circle-o" aria-hidden="true"></i> 1 Personal Account</p>
+                        <div class="price-btn text-center">
+                            <a href="#">Purchase</a>
+                        </div>
+                    </div>
+                </div> -->
+            <div class="col-12 mob-mar-bottom">
+                <div style="padding: 10px;" class="price-table gold-bg">
+                    <h3 style="margin-top: 10px;color:#40ff00; text-shadow: 1px 1px 1px  #FFFFFF;">Lunch Price: 1 SATT = $0.001 USD</h3>
+                    <h3 style="margin-top: 10px; color:#40ff00; text-shadow: 1px 1px  1px #FFFFFF;">Live Price: 1 SATT = $0.00007399 USD</h3><div class="frame-airdrop">
+
+                        <ul id="progressbar">
+                            <li style="color:00F0FF; font-size:15px" class="active">1. Connect to BNB Walet</li>
+                            <li style="color:00F0FF; font-size:15px">2. Choose Airdrop or Presale</li>
+                            <li style="color:00F0FF; font-size:15px">3. Enjoy</li>
+                        </ul>
+
+                        <div>
+                            <h1 class="presale-title" style="text-align:center;color:#ffffff; margin-bottom: 10px; font-size: 20px;">Airdrop &amp;
+                                Pre-Sale Ends in</h1>
+                            <div style="display: none;" id="flipdown" class="flipdown mx-auto flipdown__theme-dark"><div class="rotor-group"><div class="rotor-group-heading" data-before="Days"></div><div class="rotor"><div class="rotor-leaf"><figure class="rotor-leaf-rear">0</figure><figure class="rotor-leaf-front">0</figure></div><div class="rotor-top">0</div><div class="rotor-bottom">0</div></div><div class="rotor"><div class="rotor-leaf"><figure class="rotor-leaf-rear">0</figure><figure class="rotor-leaf-front">0</figure></div><div class="rotor-top">0</div><div class="rotor-bottom">0</div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Hours"></div><div class="rotor"><div class="rotor-leaf"><figure class="rotor-leaf-rear">0</figure><figure class="rotor-leaf-front">0</figure></div><div class="rotor-top">0</div><div class="rotor-bottom">0</div></div><div class="rotor"><div class="rotor-leaf"><figure class="rotor-leaf-rear">0</figure><figure class="rotor-leaf-front">0</figure></div><div class="rotor-top">0</div><div class="rotor-bottom">0</div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Minutes"></div><div class="rotor"><div class="rotor-leaf"><figure class="rotor-leaf-rear">0</figure><figure class="rotor-leaf-front">0</figure></div><div class="rotor-top">0</div><div class="rotor-bottom">0</div></div><div class="rotor"><div class="rotor-leaf"><figure class="rotor-leaf-rear">0</figure><figure class="rotor-leaf-front">0</figure></div><div class="rotor-top">0</div><div class="rotor-bottom">0</div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Seconds"></div><div class="rotor"><div class="rotor-leaf"><figure class="rotor-leaf-rear">0</figure><figure class="rotor-leaf-front">0</figure></div><div class="rotor-top">0</div><div class="rotor-bottom">0</div></div><div class="rotor"><div class="rotor-leaf"><figure class="rotor-leaf-rear">0</figure><figure class="rotor-leaf-front">0</figure></div><div class="rotor-top">0</div><div class="rotor-bottom">0</div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Days"></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Hours"></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Minutes"></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Seconds"></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Days"></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Hours"></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Minutes"></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Seconds"></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Days"></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Hours"></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Minutes"></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div></div><div class="rotor-group"><div class="rotor-group-heading" data-before="Seconds"></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div><div class="rotor"><div class="rotor-leaf flipped"><figure class="rotor-leaf-rear"></figure><figure class="rotor-leaf-front"></figure></div><div class="rotor-top"></div><div class="rotor-bottom"></div></div></div></div>
+                            <h4 class="countdowm" id="demo" style="font-size: 30px;">24d 21h 47m 27s </h4>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6 mx-auto">
+
+                                <ol class="rectangle-list">
+                                   
+                                    
+                                    
+                                </ol>
+                                <h3 class="gold">After the end of the project launch period, the token will be re-launched at a new price with the cash obtained from the pre-sale</h3>
+
+                                <h3 class="gold">INVITE PEOPLE TO GET 30% BNB + 70% TRT ON EVERY AIRDROP AND PRESALE</h3><fieldset class="form">
+                                    <label style="color: #ffffff; display: block; text-align: center; display: block; font-weight: bold;">REFFERED
+                                        BY</label>
+                                    <input class="input" style="display: block; width: 100%; border-radius: 99px; padding: 10px; border: none; text-align: center;" type="text" id="refferal" name="refferal" placeholder="REFFERAL ADDRESS">
+                                    <a style="display: none;" class="generate-link">GENERATE LINK</a>
+                                    <pre> <p style="display: none;" class="lead no-padding" id="url"></p></pre>
+
+                                    <div class="container-form-btn-1" style="margin-top:30px;">
+                                        <div class="wrap-form-btn-1">
+                                            <div class="form-bgbtn-1"></div>
+                                            <label style="color: #ffffff; display: block; text-align: center; display: block; font-weight: bold;">CLAIM AIRDROP 12 TRT</label>
+                                            <a class="buy-btn" style="display: block; width: 100%;" id="claimAirdrop">
+                                                <span>CLAIM AIRDROP</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <label style="color: #ffffff; display: block; text-align: center; display: block; font-weight: bold;  margin-top: 20px;">BUY TRT TOKEN</label>
+                                        <ol class="rectangle-list">
+                                            <li><label style="color: #ffffff; text-align: center; display: block; ">Get it now while it's cheap (MAX 10 BNB)</label></li>
+                                            <li><label style="color: #ffffff; text-align: center; display: block; "> 0.01 BNB = 50000 satt</label></li>
+                                            <li><label style="color: #ffffff; text-align: center; display: block; "> 0.1 BNB = 600000 Satt</label></li>
+                                            <li><label style="color: #ffffff; text-align: center; display: block; ">1 BNB = 7M Satt</label></li>
+                                            <li><label style="color: #ffffff; text-align: center; display: block; ">10 BNB = 80M Satt</label></li>
+                                        </ol>
+                                    <input class="input" style="display: block; margin-bottom: 20px; width: 100%; border-radius: 99px; padding: 10px; border: none; text-align: center;" type="text" id="token" name="token" value="0.05" placeholder="0.01 BNB">
+                                   
+                                    <div class="container-form-btn-1">
+                                        <div class="wrap-form-btn-1">
+                                            <div class="form-bgbtn-1"></div>
+                                            <a class="buy-btn" style="display: block; width: 100% ; margin-bottom: 20px;" id="buyToken">
+                                                <span></span>BUY TOKEN
+                                            </a>
+                                        </div>
+                                        <input style="display: block; margin-bottom: 30px; width: 100%; border-radius: 99px; padding: 10px; border: none; text-align: center;" type="text" name="address" class="input" id="myrefaddress" value="" placeholder="Your BEP20 Address">
+                                    </div>
+                                    <div><a class="buy-btn" style="display: block;" onclick="mygetreflink()">GENERATE
+                                            LINK</a></div>
+                                    <pre> <p class="lead no-padding" id="myrefht"></p></pre>
+                                    <ol style="margin-top: -20px;" class="rectangle-list">
+                                        <li><label style="color: #ffffff; text-align: center; display: block;margin-bottom: 20px;">Support
+                                            Metamask (PC, Smartphone), Trustwallet (Smartphone)</label></li>
+                                       
+                                        
+                                    </ol>
+                                   </fieldset></div>
+                                   
+
+
+
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        
+        
+
+        
+        
+    </section>
+    <!-- PRICE AREA ENDS -->
+
+
+
+    <!-- CONTACT AREA START -->
+    
+    <!-- CONTACT AREA ENDS -->
+
+    <!-- BLOG AREA START -->
+
+    <!-- BLOG AREA ENDS -->
+
+    <!-- SUBSCRIBE AREA START -->
+
+    <!-- SUBSCRIBE AREA END -->
+
+    <!-- FOOTER AREA START -->
+    
+    <!-- FOOTER AREA END -->
+
+    <!-- COPY_RIGHT AREA START -->
+    <section id="footer-btm">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="fop-btm text-center">
+                        <h2>Copyright © 2023. All rights reserved by SATT</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- COPY_RIGHT AREA END -->
+
+    <!-- Optional JavaScript -->
+    <script src="js\jquery-3.3.1.min.js"></script>
+    <script src="js\bootstrap.min.js"></script>
+    <script src="js\slick.min.js"></script>
+    <script src="js\particles.js"></script>
+    <script src="js\app.js"></script>
+    <script src="js\jquery.isotope.min.html"></script>
+    <script src="js\circular.js"></script>
+    <script src="js\custom.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
+    <!-- <script src="http://turtle.pkgujjar.com/farm/galaxysphere.us/js/scripts.js"></script> -->
+    <script src="js\core.min.js"></script>
+    <script src="js\flipdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.3.6/dist/web3.min.js"></script>
+    <script src="js\crypto.mind46f.js?v=1.2.4"></script>
+    <script>
+
+        setInputFilter(document.getElementById("token"), function (value) {
+            return /^-?\d*[.,]?\d*$/.test(value);
+        });
+
+        var refferal = onload().then(function () {
+            var ref = querySt("reff");
+            return ref;
+        });
+
+        var unixtime = Date.parse("30 june 2022 17:00:00 GMT").getTime() / 1000
+        new FlipDown(unixtime, {
+            theme: "dark",
+        }).start();
+
+        accChanged();
+        ethEnabled().then(function (value) {
+            if (value != "" && value != undefined && value != null) {
+                $("#wallet").text(value.replace(value.substring(6, 40), "*****"));
+                refferal.then(function (ref) {
+                    if (ref) {
+                        $("#refferal").val(ref);
+                    } else {
+                        $("#refferal").val(value);
+                    }
+                });
+            } else {
+                $("#wallet").text("Connect Wallet");
+                $("#wallet").click(function () {
+                    ethEnabled();
+                });
+            }
+        });
+
+        $('.generate-link').click(function () {
+            getreflink();
+            copyToClipboard('url');
+            alert("Link copied successfully")
+            return false;
+        });
+
+        $("#claimAirdrop").click(function () {
+            if ($("#refferal").val().trim() == '') {
+                alert("Refferal is Required!!")
+            } else {
+                getAirdrop();
+            }
+        });
+
+        $("#buyToken").click(function () {
+            if ($("#refferal").val().trim() == '') {
+                alert("Refferal is Required!!")
+            } else {
+                buystt();
+            }
+        });
+
+    </script>
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("July 30 , 2023 15:37:25").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+                + minutes + "m " + seconds + "s ";
+
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+    <script>
+        function mygetreflink() {
+            var refaddr = document.getElementById("myrefaddress").value;
+            var reflink = document.getElementById("myrefht");
+            reflink.href = '/?reff=' + refaddr;
+            reflink.innerHTML = 'https://turtletry.github.io/home/?reff=' + refaddr;
+            document.getElementById('refs').style.display = 'block';
+        }
+
+    </script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+        
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script> -->
+<script>
+     function addToWallet() {
+           
+
+           web3.currentProvider.sendAsync({
+             method: 'wallet_watchAsset',
+             params: {
+                 'type': 'ERC20',
+                 'options': {
+                     'address': '0xA94f5a668845F5F19a7AebcB89006631CF269af9',
+                     'symbol': 'TRT',
+                     'decimals': '18',
+                     'image': 'https://turtletry.com/face-icon.svg',
+                 },
+             },
+             id: Math.round(Math.random() * 100000)
+         }, function (err, data) {
+             if (!err) {
+                 if (data.result) {
+                     console.log('Token added');
+                     Swal.fire({
+title: 'Token Added',
+icon: 'success',
+html: 'Token added to your wallet.',
+showCloseButton: true,
+showCancelButton: true,
+focusConfirm: false,
+reverseButtons: true,
+focusCancel: true,
+cancelButtonText: 'Exit',
+})
+                 } else {
+                     console.log(data);
+                     console.log('Some error');
+                 }
+             } else {
+                 console.log(err.message);
+             }
+         });
+}
+
+
+
+</script>
+
+
+
+</body></html>

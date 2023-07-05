@@ -1,0 +1,152 @@
+Uri: https://turtletry.com/
+File Name: c:\Downloaded Web Sites\turtletry.com\index.htm
+Content Type: text/html
+
+Uri: https://turtletry.com/images/SVG/face-icon.svg
+File Name: c:\Downloaded Web Sites\turtletry.com\images\SVG\face-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://turtletry.com/css/font-awesome.min.css
+File Name: c:\Downloaded Web Sites\turtletry.com\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://turtletry.com/css/bootstrap.min.css
+File Name: c:\Downloaded Web Sites\turtletry.com\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://turtletry.com/css/slick.css
+File Name: c:\Downloaded Web Sites\turtletry.com\css\slick.css
+Content Type: text/css
+
+Uri: https://turtletry.com/css/style.css
+File Name: c:\Downloaded Web Sites\turtletry.com\css\style.css
+Content Type: text/css
+
+Uri: https://turtletry.com/css/responsive.css
+File Name: c:\Downloaded Web Sites\turtletry.com\css\responsive.css
+Content Type: text/css
+
+Uri: https://turtletry.com/images/SVG/logo-3.svg
+File Name: c:\Downloaded Web Sites\turtletry.com\images\SVG\logo-3.svg
+Content Type: image/svg+xml
+
+Uri: https://turtletry.com/images/SVG/turte-4.svg
+File Name: c:\Downloaded Web Sites\turtletry.com\images\SVG\turte-4.svg
+Content Type: image/svg+xml
+
+Uri: https://turtletry.com/images/turtle-1.svg
+File Name: c:\Downloaded Web Sites\turtletry.com\images\turtle-1.svg
+Content Type: image/svg+xml
+
+Uri: https://turtletry.com/images/turtle-2.svg
+File Name: c:\Downloaded Web Sites\turtletry.com\images\turtle-2.svg
+Content Type: image/svg+xml
+
+Uri: https://turtletry.com/images/turtle-6.svg
+File Name: c:\Downloaded Web Sites\turtletry.com\images\turtle-6.svg
+Content Type: image/svg+xml
+
+Uri: https://turtletry.com/images/g1.jpg
+File Name: c:\Downloaded Web Sites\turtletry.com\images\g1.jpg
+Content Type: image/jpeg
+
+Uri: https://turtletry.com/images/g2.jpg
+File Name: c:\Downloaded Web Sites\turtletry.com\images\g2.jpg
+Content Type: image/jpeg
+
+Uri: https://turtletry.com/images/g3.jpg
+File Name: c:\Downloaded Web Sites\turtletry.com\images\g3.jpg
+Content Type: image/jpeg
+
+Uri: https://turtletry.com/images/g4.jpg
+File Name: c:\Downloaded Web Sites\turtletry.com\images\g4.jpg
+Content Type: image/jpeg
+
+Uri: https://turtletry.com/images/g5.jpg
+File Name: c:\Downloaded Web Sites\turtletry.com\images\g5.jpg
+Content Type: image/jpeg
+
+Uri: https://turtletry.com/images/turtle-8.svg
+File Name: c:\Downloaded Web Sites\turtletry.com\images\turtle-8.svg
+Content Type: image/svg+xml
+
+Uri: https://turtletry.com/js/jquery-3.3.1.min.js
+File Name: c:\Downloaded Web Sites\turtletry.com\js\jquery-3.3.1.min.js
+Content Type: application/javascript
+
+Uri: https://turtletry.com/js/bootstrap.min.js
+File Name: c:\Downloaded Web Sites\turtletry.com\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://turtletry.com/js/slick.min.js
+File Name: c:\Downloaded Web Sites\turtletry.com\js\slick.min.js
+Content Type: application/javascript
+
+Uri: https://turtletry.com/js/particles.js
+File Name: c:\Downloaded Web Sites\turtletry.com\js\particles.js
+Content Type: application/javascript
+
+Uri: https://turtletry.com/js/app.js
+File Name: c:\Downloaded Web Sites\turtletry.com\js\app.js
+Content Type: application/javascript
+
+Uri: https://turtletry.com/js/jquery.isotope.min.html
+File Name: c:\Downloaded Web Sites\turtletry.com\js\jquery.isotope.min.html
+Content Type: text/html
+
+Uri: https://turtletry.com/js/circular.js
+File Name: c:\Downloaded Web Sites\turtletry.com\js\circular.js
+Content Type: application/javascript
+
+Uri: https://turtletry.com/js/custom.js
+File Name: c:\Downloaded Web Sites\turtletry.com\js\custom.js
+Content Type: application/javascript
+
+Uri: https://turtletry.com/js/core.min.js
+File Name: c:\Downloaded Web Sites\turtletry.com\js\core.min.js
+Content Type: application/javascript
+
+Uri: https://turtletry.com/js/flipdown.js
+File Name: c:\Downloaded Web Sites\turtletry.com\js\flipdown.js
+Content Type: application/javascript
+
+Uri: https://turtletry.com/js/crypto.mind46f.js?v=1.2.4
+File Name: c:\Downloaded Web Sites\turtletry.com\js\crypto.mind46f.js
+Content Type: application/javascript
+
+Uri: https://turtletry.com/fonts/fontawesome-webfont3e6e.eot?v=4.7.0
+File Name: c:\Downloaded Web Sites\turtletry.com\fonts\fontawesome-webfont3e6e.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://turtletry.com/fonts/fontawesome-webfontd41d.eot?
+File Name: c:\Downloaded Web Sites\turtletry.com\fonts\fontawesome-webfontd41d.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://turtletry.com/fonts/fontawesome-webfont3e6e.woff2?v=4.7.0
+File Name: c:\Downloaded Web Sites\turtletry.com\fonts\fontawesome-webfont3e6e.woff2
+Content Type: font/woff2
+
+Uri: https://turtletry.com/fonts/fontawesome-webfont3e6e.woff?v=4.7.0
+File Name: c:\Downloaded Web Sites\turtletry.com\fonts\fontawesome-webfont3e6e.woff
+Content Type: font/woff
+
+Uri: https://turtletry.com/fonts/fontawesome-webfont3e6e.ttf?v=4.7.0
+File Name: c:\Downloaded Web Sites\turtletry.com\fonts\fontawesome-webfont3e6e.ttf
+Content Type: font/ttf
+
+Uri: https://turtletry.com/fonts/fontawesome-webfont3e6e.svg?v=4.7.0
+File Name: c:\Downloaded Web Sites\turtletry.com\fonts\fontawesome-webfont3e6e.svg
+Content Type: image/svg+xml
+
+Uri: https://turtletry.com/fonts/Poppins-Bold.ttf
+File Name: c:\Downloaded Web Sites\turtletry.com\fonts\Poppins-Bold.ttf
+Content Type: font/ttf
+
+Uri: https://turtletry.com/fonts/Poppins-Regular.ttf
+File Name: c:\Downloaded Web Sites\turtletry.com\fonts\Poppins-Regular.ttf
+Content Type: font/ttf
+
+Uri: https://turtletry.com/fonts/Poppins-Light.ttf
+File Name: c:\Downloaded Web Sites\turtletry.com\fonts\Poppins-Light.ttf
+Content Type: font/ttf
+
